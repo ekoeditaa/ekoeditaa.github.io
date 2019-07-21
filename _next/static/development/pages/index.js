@@ -223,9 +223,9 @@ var _jsxFileName = "/Users/ekoedita/Desktop/Code/portfol/components/Head/Head.js
 
 
 
-var defaultDescription = "";
-var defaultOGURL = "";
-var defaultOGImage = "";
+var defaultDescription = '';
+var defaultOGURL = '';
+var defaultOGImage = '';
 
 var Head = function Head(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -247,7 +247,7 @@ var Head = function Head(props) {
       lineNumber: 12
     },
     __self: this
-  }, props.title || ""), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+  }, props.title || ''), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     name: "description",
     content: props.description || defaultDescription,
     __source: {
@@ -291,7 +291,7 @@ var Head = function Head(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "icon",
-    href: "/static/favicon.ico",
+    href: "/static/icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
@@ -331,7 +331,7 @@ var Head = function Head(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     property: "og:title",
-    content: props.title || "",
+    content: props.title || '',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
@@ -686,7 +686,6 @@ var Icon = function Icon(props) {
 };
 
 Icon.propTypes = {
-  icon: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   size: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
   color: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string
 };
@@ -1045,6 +1044,7 @@ var MenuItem = function MenuItem(props) {
       }, icon.map(function (i) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
           d: i,
+          key: i,
           style: getSVGFill('#EE86B7'),
           __source: {
             fileName: _jsxFileName,
@@ -1066,6 +1066,7 @@ var MenuItem = function MenuItem(props) {
     }, icon.map(function (i) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
         d: i,
+        key: i,
         style: getSVGFill('#6E7376'),
         __source: {
           fileName: _jsxFileName,
@@ -14593,7 +14594,7 @@ var MENU = [{
   url: '/experience',
   icon: [ICONS.WORK]
 }, {
-  title: 'PROJECTs',
+  title: 'PROJECTS',
   url: '/projects',
   icon: ICONS.PROJECTS
 }];
@@ -14642,7 +14643,7 @@ var PROJECTS = [{
 
 /***/ }),
 
-/***/ 20:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -14667,5 +14668,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[20,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map
