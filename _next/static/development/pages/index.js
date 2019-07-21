@@ -14576,7 +14576,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SOCIAL", function() { return SOCIAL; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EXPERIENCES", function() { return EXPERIENCES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PROJECTS", function() { return PROJECTS; });
-var BIO = "Hi there, thank you for visiting my page!        \n  I love writing code to create things but more often than not I break things and systems instead \uD83E\uDD26. You can find me on Github working on personal and open source projects and also on Quora or Medium writing sometimes.\n  I enjoy good food, coffee, and travelling a lot.\n  Cheers!";
+var BIO = "Hi there, thank you for visiting my page! I love writing code to create things but more often than not I break things and systems instead \uD83E\uDD26. You can find me on Github working on personal and open source projects and also on Quora or Medium writing sometimes. I enjoy good food, coffee, and travelling a lot. Cheers!";
 var ICONS = {
   HOME: 'M512 295.222l-256-198.713-256 198.714v-81.019l256-198.713 256 198.714zM448 288v192h-128v-128h-128v128h-128v-192l192-144z',
   ENVELOPE: 'M464 64h-416c-26.4 0-48 21.6-48 48v320c0 26.4 21.6 48 48 48h416c26.4 0 48-21.6 48-48v-320c0-26.4-21.6-48-48-48zM199.37 275.186l-135.37 105.446v-250.821l135.37 145.375zM88.19 128h335.62l-167.81 126-167.81-126zM204.644 280.849l51.356 55.151 51.355-55.151 105.277 135.151h-313.264l105.276-135.151zM312.63 275.186l135.37-145.375v250.821l-135.37-105.446z',

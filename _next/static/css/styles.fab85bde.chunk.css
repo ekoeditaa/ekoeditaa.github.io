@@ -1,0 +1,130 @@
+.bio_wrapper___15SCE {
+  margin: 20px 0 0 10vw;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  max-width: 600px;
+  letter-spacing: 2px; }
+
+.bio_title___1kOzQ {
+  color: #EE86B7;
+  font-family: 'Nunito', sans-serif;
+  margin: 200px 0 0 10vw; }
+
+.project_link_prompt___2-Gku {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  margin: 50px 0 0 10vw; }
+
+.project_link___3y01U {
+  text-decoration: none;
+  color: #EE86B7;
+  font-family: 'Nunito', sans-serif; }
+
+.experience_title___3VEkW {
+  color: #EE86B7;
+  font-family: 'Nunito', sans-serif;
+  margin: 70px 0 0 10vw; }
+
+.projects_container___xZyBd {
+  margin: 50px 0 0 10vw; }
+
+.section_container___mAUIL {
+  margin: 50px; }
+
+.experience_container___3LBZx {
+  display: flex;
+  flex-wrap: wrap; }
+
+.experience_wrapper___1qqSi {
+  display: flex;
+  color: white;
+  max-width: 600px;
+  min-width: 400px;
+  flex-direction: column;
+  margin: 30px 0; }
+
+.experience_headings___QtKFu {
+  display: flex;
+  justify-content: space-between; }
+
+a {
+  text-decoration: none; }
+
+.experience_title___1qAy- {
+  font-size: 20px;
+  color: white;
+  border-bottom: 2px solid #EE86B7; }
+
+.experience_title___1qAy-:hover {
+  color: #EE86B7; }
+
+.experience_period___1lA37 {
+  font-size: 16px; }
+
+.experience_details___3vfrz {
+  margin: 5px 0;
+  text-align: justify; }
+
+.experience_detail___22JUl {
+  line-height: 30px; }
+
+.welcome___RyDgE {
+  color: white;
+  font-size: 60px;
+  font-family: 'Nunito', sans-serif;
+  opacity: 1;
+  display: inline-block;
+  transition: all 0.5s ease-in;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  cursor: default; }
+
+.welcome___RyDgE:hover {
+  color: #EE86B7;
+  animation-name: rubberBand___2qZWh; }
+
+@keyframes rubberBand___2qZWh {
+  from {
+    transform: scale3d(1, 1, 1); }
+  30% {
+    transform: scale3d(1.25, 0.75, 1); }
+  40% {
+    transform: scale3d(0.75, 1.25, 1); }
+  50% {
+    transform: scale3d(1.15, 0.85, 1); }
+  65% {
+    transform: scale3d(0.95, 1.05, 1); }
+  75% {
+    transform: scale3d(1.05, 0.95, 1); }
+  to {
+    transform: scale3d(1, 1, 1); } }
+
+.rubberBand___2qZWh {
+  -webkit-animation-name: rubberBand___2qZWh;
+  animation-name: rubberBand___2qZWh; }
+
+.contact_button___2Rm1K {
+  color: #EE86B7;
+  font-size: 11px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 4px;
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #EE86B7;
+  margin-top: 25px;
+  float: left;
+  border-radius: 3px;
+  margin-left: 30px; }
+
+.contact_button___2Rm1K:hover {
+  background-color: #EE86B7;
+  color: black; }
+
+.word_wrapper___25wTZ {
+  margin: 0 30px; }
+
+.landing_wrapper___3wDwI {
+  margin-top: 25vh;
+  margin-left: 200px; }
+

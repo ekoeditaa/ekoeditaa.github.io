@@ -66,14 +66,12 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Layout */ "./components/Layout/index.js");
-/* harmony import */ var _strings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../strings */ "./strings.js");
-/* harmony import */ var _utils_anim_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utils/anim_utils */ "./utils/anim_utils.js");
-/* harmony import */ var _utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../utils/RubberBand */ "./utils/RubberBand/index.js");
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./style.scss */ "./components/Bio/style.scss");
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Layout */ "./components/Layout/index.js");
+/* harmony import */ var _strings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../strings */ "./strings.js");
+/* harmony import */ var _utils_anim_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utils/anim_utils */ "./utils/anim_utils.js");
+/* harmony import */ var _utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utils/RubberBand */ "./utils/RubberBand/index.js");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.scss */ "./components/Bio/style.scss");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/ekoedita/Desktop/Code/portfol/components/Bio/Bio.jsx";
 
 
@@ -81,87 +79,86 @@ var _jsxFileName = "/Users/ekoedita/Desktop/Code/portfol/components/Bio/Bio.jsx"
 
 
 
-
-var words = Object(_utils_anim_utils__WEBPACK_IMPORTED_MODULE_4__["splitStringToWords"])(_strings__WEBPACK_IMPORTED_MODULE_3__["BIO"]);
+var words = Object(_utils_anim_utils__WEBPACK_IMPORTED_MODULE_3__["splitStringToWords"])(_strings__WEBPACK_IMPORTED_MODULE_2__["BIO"]);
 
 var Bio = function Bio() {
   var titleFont = '4rem';
   var paragraphFontSize = '1.5rem';
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     position: "bio",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_5___default.a.bio_title,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_6___default.a.bio_title,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    fontSize: titleFont,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__["default"], {
     fontSize: titleFont,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, "A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "b"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__["default"], {
     fontSize: titleFont,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, "b"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__["default"], {
     fontSize: titleFont,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, "o"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "u"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__["default"], {
     fontSize: titleFont,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, "u"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "t"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__["default"], {
     fontSize: titleFont,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, "t"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "\xA0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__["default"], {
     fontSize: titleFont,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }, "\xA0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "M"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__["default"], {
     fontSize: titleFont,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, "M"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    fontSize: titleFont,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
   }, "e")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_6___default.a.bio_wrapper,
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_5___default.a.bio_wrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 29
     },
     __self: this
   }, words.map(function (el, idx) {
@@ -169,24 +166,24 @@ var Bio = function Bio() {
       key: idx,
       __source: {
         fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      fontSize: paragraphFontSize,
+      __source: {
+        fileName: _jsxFileName,
         lineNumber: 33
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    }, " ", el), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_4__["default"], {
       fontSize: paragraphFontSize,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 34
       },
       __self: this
-    }, " ", el, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_RubberBand__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      fontSize: paragraphFontSize,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35
-      },
-      __self: this
-    }, " \xA0 "));
+    }, " \xA0"));
   })));
 };
 
@@ -12155,7 +12152,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SOCIAL", function() { return SOCIAL; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EXPERIENCES", function() { return EXPERIENCES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PROJECTS", function() { return PROJECTS; });
-var BIO = "Hi there, thank you for visiting my page!        \n  I love writing code to create things but more often than not I break things and systems instead \uD83E\uDD26. You can find me on Github working on personal and open source projects and also on Quora or Medium writing sometimes.\n  I enjoy good food, coffee, and travelling a lot.\n  Cheers!";
+var BIO = "Hi there, thank you for visiting my page! I love writing code to create things but more often than not I break things and systems instead \uD83E\uDD26. You can find me on Github working on personal and open source projects and also on Quora or Medium writing sometimes. I enjoy good food, coffee, and travelling a lot. Cheers!";
 var ICONS = {
   HOME: 'M512 295.222l-256-198.713-256 198.714v-81.019l256-198.713 256 198.714zM448 288v192h-128v-128h-128v128h-128v-192l192-144z',
   ENVELOPE: 'M464 64h-416c-26.4 0-48 21.6-48 48v320c0 26.4 21.6 48 48 48h416c26.4 0 48-21.6 48-48v-320c0-26.4-21.6-48-48-48zM199.37 275.186l-135.37 105.446v-250.821l135.37 145.375zM88.19 128h335.62l-167.81 126-167.81-126zM204.644 280.849l51.356 55.151 51.355-55.151 105.277 135.151h-313.264l105.276-135.151zM312.63 275.186l135.37-145.375v250.821l-135.37-105.446z',
@@ -12302,7 +12299,7 @@ function splitStringToWords(inputString) {
 
 /***/ }),
 
-/***/ 15:
+/***/ 20:
 /*!****************************!*\
   !*** multi ./pages/bio.js ***!
   \****************************/
@@ -12327,5 +12324,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[15,"static/runtime/webpack.js","styles"]]]));;
+},[[20,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=bio.js.map
